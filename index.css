@@ -2,6 +2,9 @@
   display: flex;
   justify-content: flex-end;
 }
+.nav-color {
+  background-color: #fdfaea !important;
+}
 @media screen and (max-width: 991px) {
   .navs-to-push {
     display: flex;
@@ -109,7 +112,7 @@
   font-size: 28px;
   text-align: center;
   color: #0a0a0a;
-  margin-top: 55px;
+  padding-top: 55px;
 }
 .products-itself {
   /* background-color: red; */
@@ -154,10 +157,11 @@
   border-radius: 20px;
 }
 .farm-background {
-  background-image: url("./images/image\ 15.png");
+  background-image: url("./images/image\ 15.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
-
-  /* background-repeat: no-repeat; */
 }
 .potimum {
   padding-top: 120px;
@@ -209,8 +213,9 @@
   margin-top: -140px;
 }
 .dow-oo {
-  margin-top: 70px;
+  padding-top: 70px;
   padding-bottom: 30px;
+  background: rgba(239, 202, 47, 0.1);
 }
 .tallk {
   font-family: "Space Grotesk";
@@ -364,4 +369,106 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+}
+
+#cursor {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  will-change: transform;
+  mix-blend-mode: difference;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .cursor__circle {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(255, 255, 255);
+
+    margin-top: -50%;
+    margin-left: -50%;
+    border-radius: 50%;
+  }
+
+  #cursor.arrow .cursor__circle {
+    width: 128px;
+    height: 128px;
+    /* background-color: #073099;
+    border-color: #073099; */
+  }
+
+  #cursor.arrow::after {
+    content: "";
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://svgshare.com/i/MzQ.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #cursor.subtle .cursor__circle {
+    opacity: 0.16;
+  }
+
+  #cursor.overlay .cursor__circle {
+    width: 48px;
+    height: 48px;
+    /* background-color: rgba(227, 222, 193, 0.08); */
+    border-color: transparent;
+  }
+}
+.form-label {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  color: #0a0a0a !important;
+}
+.hrhrhr {
+  height: 65px;
+}
+input::placeholder {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(10, 10, 10, 0.6);
+}
+.submit-buttons {
+  background: #009055;
+  width: 100%;
+  height: 57px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.form-check-label {
+  font-family: "DM Sans" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 19px !important;
+  color: rgba(10, 10, 10, 0.6) !important;
+}
+.winkk {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #0a0a0a;
+}
+.oioi {
+  margin-top: 20px;
+  padding-left: 20px;
 }
