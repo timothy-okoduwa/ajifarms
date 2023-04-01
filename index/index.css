@@ -1,0 +1,107 @@
+.navs-to-push {
+  display: flex;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 991px) {
+  .navs-to-push {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .left-green-talk {
+    margin-top: 85px;
+  }
+}
+.name-of-link {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0a0a0a;
+  margin-right: 35px;
+  cursor: pointer;
+}
+.name-of-link2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0a0a0a;
+  cursor: pointer;
+}
+.aji-logo {
+  width: 100%;
+}
+.main-for-green {
+  background-color: #009055;
+  padding-top: 15px;
+}
+.transfore {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+
+  color: #ffffff;
+}
+.reasonw-we {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #ffffff;
+}
+.signup-button {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0a0a0a;
+  margin-top: 15px;
+  outline: none;
+  border: none;
+  width: 276px;
+  height: 55px;
+  background: #efca2f;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.background-imahe {
+  background-image: url("./images/Group\ 10.png");
+}
+.product-showcase-letter {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #0a0a0a;
+  margin-top: 55px;
+}
+.products-itself {
+  /* background-color: red; */
+  margin-top: 45px;
+}
+.flex-up {
+  display: flex;
+  overflow: hidden;
+}
+.dot-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.dot-nav button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 5px;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.dot-nav button.active {
+  background-color: #efca2f;
+}
