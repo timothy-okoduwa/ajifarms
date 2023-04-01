@@ -10,6 +10,15 @@
   .left-green-talk {
     margin-top: 85px;
   }
+  .wikiki {
+    margin-top: 30px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+  .biggaton {
+    margin-top: 220px;
+    margin-bottom: 620px;
+  }
 }
 .name-of-link {
   font-family: "DM Sans";
@@ -35,6 +44,14 @@
   background-color: #009055;
   padding-top: 15px;
 }
+.main-for-green3 {
+  background-color: #fdfaea;
+  padding-top: 15px;
+}
+.main-for-green2 {
+  background-color: #fdfaea;
+  padding-top: 15px;
+}
 .transfore {
   font-family: "Space Grotesk";
   font-style: normal;
@@ -43,6 +60,14 @@
 
   color: #ffffff;
 }
+.transfore2 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+
+  color: #0a0a0a;
+}
 .reasonw-we {
   font-family: "DM Sans";
   font-style: normal;
@@ -50,6 +75,14 @@
   font-size: 20px;
 
   color: #ffffff;
+}
+.reasonw-we2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #0a0a0a;
 }
 .signup-button {
   font-family: "DM Sans";
@@ -104,4 +137,231 @@
 
 .dot-nav button.active {
   background-color: #efca2f;
+}
+.get-to-know-us {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #009055;
+  width: 170px;
+  height: 35px;
+  background: rgba(0, 144, 85, 0.1);
+  border-radius: 20px;
+}
+.farm-background {
+  background-image: url("./images/image\ 15.png");
+  height: 100vh;
+
+  /* background-repeat: no-repeat; */
+}
+.potimum {
+  padding-top: 120px;
+}
+.trusted {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+.yelow-back {
+  width: 220px;
+  height: 275px;
+  background: #efca2f;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.webeck {
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.number {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: #0a0a0a;
+  margin-top: 25px;
+}
+.dist {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 18px;
+  color: #0a0a0a;
+}
+.push-up {
+  margin-top: -140px;
+}
+.dow-oo {
+  margin-top: 70px;
+  padding-bottom: 30px;
+}
+.tallk {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #0a0a0a;
+  margin-top: 20px;
+}
+.need {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+
+  text-align: center;
+
+  color: #667085;
+}
+
+.request {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  background: #009055;
+  outline: none;
+  margin-top: 15px;
+  border: 1px solid #009055;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 238px;
+  height: 45px;
+}
+.call-footer {
+  background: #009055;
+
+  margin-top: 20px;
+}
+.okay {
+  padding-top: 65px;
+  padding-bottom: 30px;
+}
+.ajiff {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+.wikiki {
+  display: flex;
+  justify-content: center;
+}
+.navsss {
+  margin-bottom: 30px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.line {
+  color: white;
+  font-weight: bolder;
+}
+.flexxc {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.swift {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.why-ajifarm {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.we-offer {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 14px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.biggaton {
+  margin-top: 220px;
+  /* margin-bottom: 620px; */
+}
+.yellow-box {
+  background: #efca2f;
+  height: 300px;
+}
+.green-box {
+  background: #009055;
+  border-radius: 10px;
+  height: 280px;
+  width: 300px;
+  margin-top: -80px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-bottom: 80px;
+}
+.circles {
+  display: flex;
+  justify-content: center;
+}
+.round {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #009055;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+.prod {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.offering {
+  margin-top: 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fdfaea;
+}
+.ladyy {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
 }
