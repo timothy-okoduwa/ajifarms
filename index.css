@@ -145,8 +145,13 @@
 }
 .flex-up {
   display: flex;
-  overflow: hidden;
+  overflow-x: scroll;
 }
+
+.flex-up::-webkit-scrollbar {
+  display: none;
+}
+
 .dot-nav {
   display: flex;
   justify-content: center;
