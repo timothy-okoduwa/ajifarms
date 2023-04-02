@@ -193,14 +193,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .dot-nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .dot-nav button {
-    margin: 5px;
-  }
   .img-hol {
     height: 200px;
     width: 100% !important;
