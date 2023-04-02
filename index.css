@@ -193,6 +193,14 @@
 }
 
 @media screen and (max-width: 768px) {
+   .dot-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .dot-nav button {
+    margin: 0 5px;
+  }
   .img-hol {
     height: 200px;
     width: 100% !important;
