@@ -602,3 +602,7 @@ input::placeholder {
   background: #009055;
   border-radius: 8px;
 }
+.gege {
+  display: flex;
+  justify-content: flex-start;
+}
