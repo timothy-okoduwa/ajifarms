@@ -28,6 +28,25 @@
     margin-top: 220px;
     margin-bottom: 620px;
   }
+  .name-of-link {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0a0a0a;
+    margin-right: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  .name-of-link2 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0a0a0a;
+    cursor: pointer;
+    margin-top: 20px;
+  }
 }
 .name-of-link {
   font-family: "DM Sans";

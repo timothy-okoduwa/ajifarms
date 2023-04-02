@@ -6,6 +6,30 @@
       name="viewport"
       content="width=device-width, initial-scale=1" />
     <title>AjiFarms</title>
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=".images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href=".images/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/safari-pinned-tab.svg"
+      color="#5bbad5" />
+    <meta
+      name="msapplication-TileColor"
+      content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="stylesheet" href="index.css" />
     <link
       rel="preconnect"
@@ -124,9 +148,17 @@
                     products
                   </div>
                   <div>
-                    <button class="signup-button">
-                      SIGN UP AS A MERCHANT
-                    </button>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=237673485627"
+                      target="_blank"
+                      style="
+                        text-decoration: none;
+                        color: white;
+                      ">
+                      <button class="signup-button">
+                        SIGN UP AS A MERCHANT
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -227,7 +259,7 @@
       <div class="farm-background">
         <div class="potimum">
           <div class="trusted">
-            Your trusted source for Day-old chicks and
+            Your trusted source for Day-old <br />chicks and
             Animal Feed
           </div>
         </div>
@@ -457,7 +489,155 @@
       </div>
     </section>
 
-    <script src="./index.js"></script>
+    <script>
+      const slider = document.querySelector(".flex-up");
+      const dotsContainer =
+        document.querySelector(".dot-nav");
+      const prevButton =
+        document.querySelector(".prev-button");
+      const nextButton =
+        document.querySelector(".next-button");
+      const slideWidth = slider.offsetWidth;
+      const slideMargin = parseInt(
+        getComputedStyle(slider.children[0]).marginRight
+      );
+
+      // Create dots based on the number of images in the slider
+      for (let i = 0; i < slider.children.length; i++) {
+        const dot = document.createElement("button");
+        dot.addEventListener("click", () => {
+          const scrollAmount =
+            i * (slideWidth + slideMargin);
+          slider.scrollTo({
+            left: scrollAmount,
+            behavior: "smooth",
+          });
+          setActiveDot(i);
+        });
+        dotsContainer.appendChild(dot);
+      }
+
+      // Set the first dot as active by default
+      setActiveDot(0);
+
+      function setActiveDot(index) {
+        // Remove active class from all dots
+        dotsContainer
+          .querySelectorAll("button")
+          .forEach((dot) => {
+            dot.classList.remove("active");
+          });
+        // Add active class to the current dot
+        dotsContainer.children[index].classList.add(
+          "active"
+        );
+      }
+
+      prevButton?.addEventListener("click", () => {
+        slider.scrollBy({
+          left: -slideWidth / 2,
+          behavior: "smooth",
+        });
+      });
+
+      nextButton?.addEventListener("click", () => {
+        slider.scrollBy({
+          left: slideWidth / 2,
+          behavior: "smooth",
+        });
+      });
+
+      const cursor = document.querySelector("#cursor");
+      const cursorCircle = cursor.querySelector(
+        ".cursor__circle"
+      );
+
+      const mouse = { x: -100, y: -100 }; // mouse pointer's coordinates
+      const pos = { x: 0, y: 0 }; // cursor's coordinates
+      const speed = 0.1; // between 0 and 1
+
+      const updateCoordinates = (e) => {
+        mouse.x = e.clientX;
+        mouse.y = e.clientY;
+      };
+
+      window.addEventListener(
+        "mousemove",
+        updateCoordinates
+      );
+
+      function getAngle(diffX, diffY) {
+        return (Math.atan2(diffY, diffX) * 180) / Math.PI;
+      }
+
+      function getSqueeze(diffX, diffY) {
+        const distance = Math.sqrt(
+          Math.pow(diffX, 2) + Math.pow(diffY, 2)
+        );
+        const maxSqueeze = 0.15;
+        const accelerator = 1500;
+        return Math.min(distance / accelerator, maxSqueeze);
+      }
+
+      const updateCursor = () => {
+        const diffX = Math.round(mouse.x - pos.x);
+        const diffY = Math.round(mouse.y - pos.y);
+
+        pos.x += diffX * speed;
+        pos.y += diffY * speed;
+
+        const angle = getAngle(diffX, diffY);
+        const squeeze = getSqueeze(diffX, diffY);
+
+        const scale =
+          "scale(" +
+          (1 + squeeze) +
+          ", " +
+          (1 - squeeze) +
+          ")";
+        const rotate = "rotate(" + angle + "deg)";
+        const translate =
+          "translate3d(" +
+          pos.x +
+          "px ," +
+          pos.y +
+          "px, 0)";
+
+        cursor.style.transform = translate;
+        cursorCircle.style.transform = rotate + scale;
+      };
+
+      function loop() {
+        updateCursor();
+        requestAnimationFrame(loop);
+      }
+
+      requestAnimationFrame(loop);
+
+      const cursorModifiers = document.querySelectorAll(
+        "[cursor-class]"
+      );
+
+      cursorModifiers.forEach((curosrModifier) => {
+        curosrModifier.addEventListener(
+          "mouseenter",
+          function () {
+            const className =
+              this.getAttribute("cursor-class");
+            cursor.classList.add(className);
+          }
+        );
+
+        curosrModifier.addEventListener(
+          "mouseleave",
+          function () {
+            const className =
+              this.getAttribute("cursor-class");
+            cursor.classList.remove(className);
+          }
+        );
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
