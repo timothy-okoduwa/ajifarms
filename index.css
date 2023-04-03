@@ -196,7 +196,12 @@
 .potimum {
   padding-top: 120px;
 }
+@media screen and (min-width:1024px){
+  .potimum {
+  padding-top: 350px;
 
+}
+}
 @media screen and (max-width: 768px) {
   .dot-nav {
     display: none !important;
@@ -304,6 +309,7 @@
 }
 .push-up {
   margin-top: -140px;
+
 }
 .dow-oo {
   padding-top: 70px;
