@@ -605,7 +605,6 @@ input::placeholder {
   font-weight: 400;
   font-size: 18px;
   color: #667085;
-  text-transform: lowercase;
 }
 .cliclnow {
   font-family: "DM Sans";
