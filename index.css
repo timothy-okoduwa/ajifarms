@@ -202,15 +202,23 @@
 
 }
 }
+
+
+@media screen and (max-width: 991px) {
+  .img-hol {
+    /* height: 200px; */
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+
+}
+
+
 @media screen and (max-width: 768px) {
   .dot-nav {
     display: none !important;
   }
-  .img-hol {
-    height: 200px;
-    width: 100% !important;
-    object-fit: contain !important;
-  }
+
   .ebisa {
     background: #009055;
     font-family: "Space Grotesk";
@@ -413,6 +421,8 @@
   margin-top: 14px;
   text-align: center;
   color: #0a0a0a;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 .biggaton {
   margin-top: 220px;
@@ -589,7 +599,7 @@ input::placeholder {
   padding-bottom: 70px;
 }
 .img-hol {
-  height: 200px;
+  /* height: 200px; */
   width: 350px;
 }
 .eggs {
