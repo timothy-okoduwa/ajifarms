@@ -29,7 +29,7 @@
     margin-bottom: 620px;
   }
   .name-of-link {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -39,7 +39,7 @@
     margin-top: 20px;
   }
   .name-of-link2 {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -49,7 +49,7 @@
   }
 }
 .name-of-link {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -58,7 +58,7 @@
   cursor: pointer;
 }
 .name-of-link2 {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -81,7 +81,7 @@
   padding-top: 15px;
 }
 .transfore {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -89,7 +89,7 @@
   color: #ffffff;
 }
 .transfore2 {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -97,7 +97,7 @@
   color: #0a0a0a;
 }
 .reasonw-we {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -105,7 +105,7 @@
   color: #ffffff;
 }
 .reasonw-we2 {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -113,7 +113,7 @@
   color: #0a0a0a;
 }
 .signup-button {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -128,10 +128,10 @@
   border-radius: 8px;
 }
 .background-imahe {
-  background-image: url("./images/Group\ 10.png");
+  background-image: url('./images/Group\ 10.png');
 }
 .product-showcase-letter {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -172,7 +172,7 @@
   background-color: #efca2f;
 }
 .get-to-know-us {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -187,7 +187,7 @@
   border-radius: 20px;
 }
 .farm-background {
-  background-image: url("./images/image\ 15.svg");
+  background-image: url('./images/image\ 15.svg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -201,16 +201,13 @@
   justify-content: center;
 }
 
-
 @media screen and (max-width: 991px) {
   .img-hol {
     /* height: 200px; */
     width: 100% !important;
     object-fit: contain !important;
   }
-
 }
-
 
 @media screen and (max-width: 768px) {
   .dot-nav {
@@ -219,7 +216,7 @@
 
   .ebisa {
     background: #009055;
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -229,7 +226,7 @@
     color: #ffffff;
   }
   .trusted {
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 50px !important;
@@ -237,7 +234,7 @@
     color: #ffffff;
   }
   .transfore {
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 40px !important;
@@ -245,7 +242,7 @@
     color: #ffffff;
   }
   .transfore2 {
-    font-family: "Space Grotesk";
+    font-family: 'Space Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 40px !important;
@@ -257,7 +254,7 @@
     padding-top: 5px !important;
   }
   .need {
-    font-family: "DM Sans";
+    font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -271,7 +268,7 @@
 }
 
 .trusted {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -296,7 +293,7 @@
   height: 100%;
 }
 .number {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -305,7 +302,7 @@
   margin-top: 25px;
 }
 .dist {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -315,7 +312,6 @@
 }
 .push-up {
   margin-top: -140px;
-
 }
 .dow-oo {
   padding-top: 70px;
@@ -323,7 +319,7 @@
   background: rgba(239, 202, 47, 0.1);
 }
 .tallk {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -332,7 +328,7 @@
   margin-top: 20px;
 }
 .need {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -344,7 +340,7 @@
 }
 
 .request {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -368,7 +364,7 @@
   padding-bottom: 30px;
 }
 .ajiff {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -380,7 +376,7 @@
 }
 .navsss {
   margin-bottom: 30px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -396,7 +392,7 @@
   flex-wrap: wrap;
 }
 .swift {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -404,7 +400,7 @@
   margin-bottom: 20px;
 }
 .why-ajifarm {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 34px;
@@ -412,7 +408,7 @@
   color: #0a0a0a;
 }
 .we-offer {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -455,7 +451,7 @@
   margin-top: -20px;
 }
 .prod {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -465,7 +461,7 @@
 }
 .offering {
   margin-top: 10px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -507,13 +503,13 @@
   }
 
   #cursor.arrow::after {
-    content: "";
+    content: '';
     position: absolute;
     left: -50%;
     top: -50%;
     width: 100%;
     height: 100%;
-    background-image: url("https://svgshare.com/i/MzQ.svg");
+    background-image: url('https://svgshare.com/i/MzQ.svg');
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -530,7 +526,7 @@
   }
 }
 .form-label {
-  font-family: "DM Sans" !important;
+  font-family: 'DM Sans' !important;
   font-style: normal !important;
   font-weight: 500 !important;
   font-size: 18px !important;
@@ -540,7 +536,7 @@
   height: 65px;
 }
 input::placeholder {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -553,7 +549,7 @@ input::placeholder {
   border: none;
   outline: none;
   border-radius: 3px;
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -562,14 +558,14 @@ input::placeholder {
   margin-top: 10px;
 }
 .form-check-label {
-  font-family: "DM Sans" !important;
+  font-family: 'DM Sans' !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 19px !important;
   color: rgba(10, 10, 10, 0.6) !important;
 }
 .winkk {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -582,7 +578,7 @@ input::placeholder {
 }
 .ebisa {
   background: #009055;
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
@@ -601,21 +597,21 @@ input::placeholder {
   width: 350px;
 }
 .eggs {
-  font-family: "Space Grotesk";
+  font-family: 'Space Grotesk';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   color: #0a0a0a;
 }
 .distt {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   color: #667085;
 }
 .cliclnow {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 19px;
@@ -630,7 +626,7 @@ input::placeholder {
   border-radius: 8px;
 }
 .cliclnow2 {
-  font-family: "DM Sans";
+  font-family: 'DM Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 19px;
@@ -646,4 +642,25 @@ input::placeholder {
 .gege {
   display: flex;
   justify-content: flex-start !important;
+}
+.okidjej {
+  background-color: #fdfaea;
+}
+.jffjeje {
+  color: var(--Text-colour, #0a0a0a);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+.informe {
+  color: var(--Text-colour, #0a0a0a);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 10px;
 }
